@@ -1660,7 +1660,7 @@ view.
 /* end .footer-links */
 /* Solarized for Google Code Prettify */
 /* line 2, ../scss/_prettyprint.scss */
-.prettyprint {
+.prettyprint, .prettyprint code {
   color: #839496 !important;
   background-color: #002b36 !important;
   font-size: 0.9em;
