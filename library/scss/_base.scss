@@ -935,6 +935,14 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
+	text-align: center; 
+	border-top: solid 1px $grayDark;
+	margin-top: 40px;
+
+	p {
+		font-size: 0.9em;
+		color: darken($gray, 20%);
+	}
 }
 
 	/*
