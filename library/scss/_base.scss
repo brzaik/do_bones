@@ -20,7 +20,7 @@ body {
 	font-size: 14px;
 	line-height: 1.5;
 	color: $white;
-	background: $black;
+	background: lighten($black, 8%);
 }
 
 /********************
@@ -324,6 +324,7 @@ SEARCH STYLES
 input#s {
 	border: 1px solid #222;
 	background: #1d1d1d url(../images/search.png) no-repeat 5px 6px;
+	@include box-shadow(0 1px 2px $black);
 	font-size: 14px;
 	line-height: 1.4em;
 	padding: 4px 10px 4px 28px;
@@ -364,6 +365,7 @@ POSTS & CONTENT STYLES
 			}
 			.byline {
 				margin-top: 0px;
+				color: lighten($grayDark, 12%);
 			}
 		}
 
@@ -395,8 +397,9 @@ POSTS & CONTENT STYLES
 
 		/* entry content */
 		.entry-content {
-			color: #bbb;
-			line-height: 1.7em;
+			color: lighten(#aaa, 5%);
+			line-height: 2em;
+			font-size: 1.1em;
 
 			h1, h2, h3, h4, h5, h6, h7, h8 {
 				color: $white;
@@ -414,10 +417,11 @@ POSTS & CONTENT STYLES
 			ul, ol, table, dl {}
 
 			ul, ol {
-				margin-left: 32px;
+				margin-left: 40px;
 
 				li {
 					list-style-type: square;
+					padding-left: 6px;
 				}
 
 			}
