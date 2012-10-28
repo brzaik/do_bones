@@ -212,8 +212,9 @@ SIDEBARS & ASIDES
 			margin: 0px;
 
 			li {
-				margin-bottom: 0.25em;
-
+				margin: 1em 0;
+				line-height: normal;
+				
 				&:first-child {}
 				&:last-child {}
 				a {}
