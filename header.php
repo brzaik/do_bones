@@ -44,8 +44,8 @@
 				</div>
 
 				<div id="title-block">
-					<h1 id="title-link"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></h1>
-					<h3><?php bloginfo('description'); ?></h3>
+					<h1 id="title-link"><a href="<?php echo home_url(); ?>" rel="nofollow">Dan Ostrov</a></h1>
+					<h3>Technical Director</h3>
 				</div>
 			
 			</header> <!-- end header -->
