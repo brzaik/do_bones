@@ -53,11 +53,13 @@ LAYOUT & GRID STYLES
 HEADER SYTLES
 *********************/
 
-.header { 
+.header {  
 	margin-bottom: 0px;
 }
  
-#logo {}
+#logo {
+	img { max-width: 90%; }
+}
 
 #logo-block {
 	float: left;
