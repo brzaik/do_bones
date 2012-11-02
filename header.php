@@ -40,7 +40,7 @@
 			<header class="header clearfix" role="banner">
 
 				<div id="logo-block" class="border-right" style="padding-bottom: 12px;">
-					<a id="logo" href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/dbLogo.gif" alt="Dan Ostrov" /></a>
+					<a id="logo" href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/dbLogo.png" alt="Dan Ostrov" /></a>
 				</div>
 
 				<div id="title-block">
