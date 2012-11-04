@@ -617,6 +617,72 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop. 
 
 ******************************************************************/
+/* Solarized for Google Code Prettify */
+/* line 2, ../scss/_prettyprint.scss */
+.prettyprint, .prettyprint code {
+  color: #839496 !important;
+  background-color: #002b36 !important;
+  font-size: 0.9em;
+  /* Don't wrap its contents, and show scrollbars. */
+  white-space: nowrap;
+  overflow: auto;
+}
+
+/* line 12, ../scss/_prettyprint.scss */
+.prettyprint .pln {
+  color: inherit;
+}
+
+/* line 18, ../scss/_prettyprint.scss */
+.prettyprint .str,
+.prettyprint .lit,
+.prettyprint .atv {
+  color: #2aa198;
+}
+
+/* line 22, ../scss/_prettyprint.scss */
+.prettyprint .kwd {
+  color: #268bd2;
+}
+
+/* line 27, ../scss/_prettyprint.scss */
+.prettyprint .com,
+.prettyprint .dec {
+  color: #586e75;
+  font-style: italic;
+}
+
+/* line 32, ../scss/_prettyprint.scss */
+.prettyprint .typ {
+  color: #b58900;
+}
+
+/* line 36, ../scss/_prettyprint.scss */
+.prettyprint .pun {
+  color: inherit;
+}
+
+/* line 40, ../scss/_prettyprint.scss */
+.prettyprint .opn {
+  color: inherit;
+}
+
+/* line 44, ../scss/_prettyprint.scss */
+.prettyprint .clo {
+  color: inherit;
+}
+
+/* line 48, ../scss/_prettyprint.scss */
+.prettyprint .tag {
+  color: #268bd2;
+  font-weight: bold;
+}
+
+/* line 53, ../scss/_prettyprint.scss */
+.prettyprint .atn {
+  color: inherit;
+}
+
 /* 
 you can call the larger styles if you want, but there's really no need 
 */
