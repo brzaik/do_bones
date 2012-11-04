@@ -1660,15 +1660,6 @@ override these styles for the desktop
 view.
 */
 /* end .footer-links */
-/*********************
-CRAYON SYNTAX HIGHLIGHTER STYLES
-*********************/
-/* line 994, ../scss/_base.scss */
-.crayon-marked-line, .crayon-marked-line.crayon-striped-line {
-  background: #45432c !important;
-  border-color: #cccccc !important;
-}
-
 /* Used for Resume page table styles */
 /* line 3, ../scss/_resume.scss */
 table.resume td, table.resume th {
