@@ -1283,7 +1283,7 @@ POSTS & CONTENT STYLES
 .entry-content ul li, .entry-content ol li {
   list-style-type: square;
   padding-left: 6px;
-  margin-bottom: 10px;
+  margin-bottom: 4px;
 }
 /* line 453, ../scss/_base.scss */
 .entry-content dd {
