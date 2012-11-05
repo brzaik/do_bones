@@ -211,7 +211,7 @@ mark {
 /* line 198, ../scss/_normalize.scss */
 p,
 pre {
-  margin: 1em 0;
+  margin: 1.3em 0;
 }
 
 /*
@@ -295,7 +295,7 @@ dl,
 menu,
 ol,
 ul {
-  margin: 1em 0;
+  margin: 1.3em 0;
 }
 
 /* line 284, ../scss/_normalize.scss */
@@ -1241,7 +1241,7 @@ POSTS & CONTENT STYLES
 /* line 400, ../scss/_base.scss */
 .entry-content {
   color: #b7b7b7;
-  line-height: 1.6em;
+  line-height: 1.7em;
   font-size: 1.1em;
   /*
   image alignment on a screen this size may be
